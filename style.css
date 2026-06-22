@@ -1,0 +1,159 @@
+body {
+  font-family: Arial;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+li {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+}
+img {
+  width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+a {
+  display: block;
+  width: 150px;
+  background: green;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+a:hover {
+  background: darkgreen;
+}
+header {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+header h2 {
+  color: green;
+  font-size: 30px;
+}
+section {
+  padding: 40px;
+
+  text-align: center;
+}
+
+.services {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.card {
+  background: white;
+
+  padding: 20px;
+
+  width: 250px;
+
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  img {
+    width: 90%;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  nav a {
+    display: block;
+
+    margin: 15px;
+  }
+}
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+body {
+  animation: show 1s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+footer {
+  background: #222;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+  margin-top: 40px;
+}
+
+section p {
+  max-width: 700px;
+
+  margin: 20px auto;
+
+  line-height: 1.8;
+}
+
+.services {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.card {
+  background: white;
+
+  padding: 20px;
+
+  width: 250px;
+
+  border-radius: 15px;
+}
