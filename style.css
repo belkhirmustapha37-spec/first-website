@@ -172,3 +172,39 @@ section p {
 .hero p {
   font-size: 20px;
 }
+form {
+  max-width: 500px;
+
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+
+  padding: 15px;
+
+  margin: 10px 0;
+
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  background: green;
+
+  color: white;
+
+  padding: 15px 30px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
