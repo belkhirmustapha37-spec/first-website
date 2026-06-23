@@ -157,3 +157,18 @@ section p {
 
   border-radius: 15px;
 }
+.hero {
+  padding: 80px 20px;
+
+  text-align: center;
+
+  background: #eeeeee;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 20px;
+}
