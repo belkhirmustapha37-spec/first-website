@@ -110,9 +110,21 @@
         <button type="submit">إرسال الطلب</button>
       </form>
     </section>
+    <div class="chat">
+      <button id="chatButton">🤖 تحدث معنا</button>
 
+      <div id="chatBox">
+        <p>مرحبا 👋 كيف يمكنني مساعدتك؟</p>
+
+        <input id="userMessage" placeholder="اكتب سؤالك" />
+
+        <button onclick="sendMessage()">إرسال</button>
+      </div>
+    </div>
     <footer>
       <p>© 2026 شركة النقاء للتنظيف - جميع الحقوق محفوظة</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
